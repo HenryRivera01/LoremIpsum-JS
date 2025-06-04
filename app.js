@@ -20,7 +20,7 @@ const form = document.querySelector('.lorem-form')
 const input = document.getElementById('amount')
 const resultSection = document.querySelector('.lorem-text')
 const MIN_PARAGRAPHS = 1;
-const MAX_PARAGRAPHS = 9;
+const MAX_PARAGRAPHS = loremParagraphs.length;
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
